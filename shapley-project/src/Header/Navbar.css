@@ -1,0 +1,17 @@
+.navbar-2 {
+    max-width: 1200px;
+}
+
+.navbar-2 {
+    height: 75px;
+}
+
+.logo-navbar {
+    font-size: 24px;
+    text-decoration: none;
+    color:black;
+}
+
+.navbar-items {
+    margin-left: 120px;
+}
