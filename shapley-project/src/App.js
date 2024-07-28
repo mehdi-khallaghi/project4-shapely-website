@@ -7,6 +7,8 @@ import Section3 from './Sections/Section3-parallax';
 import Section4 from './Sections/Section4-limit';
 import Section5 from './Sections/Section5-img';
 import Section6 from './Sections/Section6-clients';
+import Section7 from './Sections/Section7-download';
+import Footer from './Sections/Footer';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Section4/>
       <Section5/>
       <Section6/>
+      <Section7/>
+      <Footer/>
    </div>
   );
 }
