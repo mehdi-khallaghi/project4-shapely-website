@@ -6,6 +6,7 @@ import Section2 from './Sections/Section2';
 import Section3 from './Sections/Section3-parallax';
 import Section4 from './Sections/Section4-limit';
 import Section5 from './Sections/Section5-img';
+import Section6 from './Sections/Section6-clients';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Section3/>
       <Section4/>
       <Section5/>
+      <Section6/>
    </div>
   );
 }
