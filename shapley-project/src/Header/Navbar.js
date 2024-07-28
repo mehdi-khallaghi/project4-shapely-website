@@ -4,7 +4,7 @@ import React from 'react'
 function Navbar() {
     return (
 
-        <nav className="navbar navbar-expand-lg bg-body-tertiary navbar-1">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-top navbar-1">
             <div className="container-fluid navbar-2">
                 <a className="logo-navbar" href="/">Shapely Demo</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

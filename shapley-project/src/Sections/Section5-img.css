@@ -1,0 +1,46 @@
+.section5 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.s5-title {
+    width: 100%;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.s5-images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 2fr);
+
+}
+
+.img-item {  
+    background-color: #000;  
+    aspect-ratio: 16/12;
+    padding: 0;  
+    margin: 0;  
+    overflow: hidden;  
+    transition: filter 0.3s ease-in-out;    
+  } 
+  
+  .img-item:hover {  
+    filter: brightness(0.7);  
+  }  
+
+  .img-item img {  
+    width: 100%;  
+    height: 100%;  
+    object-fit: cover;  
+  }  
+  

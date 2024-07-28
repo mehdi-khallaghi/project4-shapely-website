@@ -1,0 +1,36 @@
+.section4 {
+    max-width: 90%;
+    margin: 0 auto;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.section4-limit {
+    width: 700px;
+    display: flex;
+    flex-direction :column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.section4-limit .s4-btn {
+    background: #745cf9;
+    color: #fff;
+    border-color: #745cf9;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 200ms linear;
+}
+
+.section4-limit .s4-btn:hover {
+    background: #5d47d7;
+    border-color: #5d47d7;
+    color: #fff;
+}

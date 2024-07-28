@@ -1,15 +1,20 @@
-.navbar-2 {
-    max-width: 1200px;
+.navbar-1 {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
 }
 
 .navbar-2 {
-    height: 75px;
+    height: 70px;
+    max-width: 1200px;
+    min-height: 56px;
 }
 
 .logo-navbar {
     font-size: 24px;
     text-decoration: none;
-    color:black;
+    color: black;
 }
 
 .navbar-items {

@@ -5,7 +5,6 @@ import React from 'react'
 function Banner() {
     return (
         <div className='banner-header'>
-            <img src="3.png" alt='bg' />
             <div className='header-content'>
                 <h1>We Change Everything</h1>
                 <h1>WorldPress</h1>
