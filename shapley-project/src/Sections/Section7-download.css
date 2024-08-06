@@ -19,6 +19,8 @@
     display: flex;
     justify-content: space-around;
     text-decoration: none;
+    width: 90%;
+    margin: 0 auto 0;
 }
 
 .social li {
@@ -30,8 +32,12 @@
     height: 60px;
     text-decoration: none;
     display: block;
+    transition: all 0.3s ease-in-out;
 }
 
+.social li a:hover {
+    filter: sepia(0.5);
+}
 .social li a img {
     width: 100%;
     height: 100%;

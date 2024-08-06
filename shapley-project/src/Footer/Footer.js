@@ -17,12 +17,12 @@ function Footer() {
         <a href="/"> mehdi khallaghi/09120885499 </a>
       </div>
       <ul className='f-so'>
-        <li><a href="/"><AiFillGooglePlusCircle/></a></li>
-        <li><a href="/"><AiFillInstagram/></a></li>
-        <li><a href="/"><AiFillGithub/></a></li>
-        <li><a href="/"><AiFillFacebook/></a></li>
-        <li><a href="/"><AiFillAndroid/></a></li>
-        <li><a href="/"><AiFillLinkedin/></a></li>
+        <li><a href="/"><AiFillGooglePlusCircle className="f-icon"/></a></li>
+        <li><a href="/"><AiFillInstagram className="f-icon"/></a></li>
+        <li><a href="/"><AiFillGithub className="f-icon"/></a></li>
+        <li><a href="/"><AiFillFacebook className="f-icon"/></a></li>
+        <li><a href="/"><AiFillAndroid className="f-icon"/></a></li>
+        <li><a href="/"><AiFillLinkedin className="f-icon"/></a></li>
       </ul>
     </div>
   );
